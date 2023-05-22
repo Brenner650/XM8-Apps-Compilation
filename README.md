@@ -9,3 +9,7 @@ structure of custom/xm8_apps.
 If you use my xm8 Air Strike app then you may want to check this new version out it has alot of
 configurable changes in it as far as charging player by tabs or respect or even both. Also
 the file structure has changed for the air strike so pay attention to it in this package.
+
+youtube previews of apps:
+  Base Marker App - https://www.youtube.com/watch?v=pnnrV5xzAf8
+  Rules App       - https://www.youtube.com/watch?v=4s-Ku5ZNr-Y
