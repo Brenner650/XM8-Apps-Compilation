@@ -1,4 +1,4 @@
-# XM8-Apps-Compileation
+# XM8-Apps-compilation
 Compilation of XM8 apps that were made to be standalone versions from Exad XM8
 Some of these apps are my personal apps that I made and some will be from other
 Devs that allow me to put them in this package. I have provided installation instructions
