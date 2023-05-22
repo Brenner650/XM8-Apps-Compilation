@@ -1,2 +1,11 @@
 # XM8-Apps-Compileation
 Compilation of XM8 apps that were made to be standalone versions from Exad XM8
+Some of these apps are my personal apps that I made and some will be from other
+Devs that allow me to put them in this package. I have provided installation instructions
+for each app so you will need to look in each apps folder and find Installation.txt within
+each one because they all install a bit differently but Iam trying to keep them on one file
+structure of custom/xm8_apps.
+
+If you use my xm8 Air Strike app then you may want to check this new version out it has alot of
+configurable changes in it as far as charging player by tabs or respect or even both. Also
+the file structure has changed for the air strike so pay attention to it in this package.
