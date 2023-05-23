@@ -10,6 +10,11 @@ If you use my xm8 Air Strike app then you may want to check this new version out
 configurable changes in it as far as charging player by tabs or respect or even both. Also
 the file structure has changed for the air strike so pay attention to it in this package.
 
+Thank you Desa2k for allowing me to put in his Exad XM8 reworks of AI Scanner, AI Recruit, and Air Drop.
+
 youtube previews of apps:
   Base Marker App - https://www.youtube.com/watch?v=pnnrV5xzAf8
-  Rules App       - https://www.youtube.com/watch?v=4s-Ku5ZNr-Y
+  Rules App       - https://www.youtube.com/watch?v=Q52oQPpRBe4
+  Air Strike App  - https://www.youtube.com/watch?v=gZWOcJoZFo0
+  Recruit AI App  - https://www.youtube.com/watch?v=EfET7Iro3cg
+  AI Scanner App  - https://www.youtube.com/watch?v=4H0oY2rsxGk
