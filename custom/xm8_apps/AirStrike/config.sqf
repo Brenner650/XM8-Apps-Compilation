@@ -2,7 +2,7 @@
 Air Strike XM8 App
 By Crito @Vanaheim Gaming Servers
 https://discord.gg/WEFzqPa
-v2 05/20/2023
+v2.1 05/23/2023
 */
 
 SJlasers = 							///designator class names used for detection of equiped designator in players hands
@@ -23,8 +23,8 @@ SJflyTime = 180;					///time in seconds the jet stays on map bombing players tar
 
 SJrespectMin = 1000;				///minimum respect required to use air stike app. keeps players from going negative in respect
 
-SJrepPercnt = 0.00;					///cost in percent of players current rep. set to 0 to not use
+SJrepPercnt = 0.01;					///cost in percent of players current rep. set to 0 to not use
 
 SJpopTabMin = 1000;					///minimum tabs required to use air strike app. keeps players from going negative in tabs
 
-SJmoneyPercnt = 0.02;				///cost in tabs of players current tabs. set to 0 to not use
+SJmoneyPercnt = 0.01;				///cost in tabs of players current tabs. set to 0 to not use

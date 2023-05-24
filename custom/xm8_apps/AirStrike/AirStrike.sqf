@@ -2,9 +2,8 @@
 Air Strike XM8 App
 By Crito @Vanaheim Gaming Servers
 https://discord.gg/WEFzqPa
-v2 05/20/2023
+v2.1 05/23/2023
 */
-
 
 if (isServer) exitWith{};
 
@@ -117,11 +116,12 @@ private _SJ_Plane =	["B_Plane_Fighter_01_F","B_Plane_Fighter_01_Stealth_F","O_Pl
 _SJ_Plane = selectRandom _SJ_Plane;
 private _SJJet = createVehicle [_SJ_Plane, _SJJetSpawn, [], 0, "FLY"];
 _SJPilot moveInAny _SJJet;
-_SJJet flyInHeight 1000;
+_SJJet flyInHeight 300;
 private _SJWP1 = _SJGroup addWaypoint [getpos player, 1];
 _SJWP1 setWaypointSpeed "FULL";
 _SJWP1 setWaypointType "MOVE";
 
+_SJJet setCaptive 1;
 _SJJet addEventHandler ["Fired",{(_this select 0) setVehicleAmmo 1}];
 
 			while {alive _SJJet} do
