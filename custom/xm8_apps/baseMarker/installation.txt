@@ -27,7 +27,17 @@
 		
 		#include "custom\xm8_apps\baseMarker\GUI\defines.hpp"
 		#include "custom\xm8_apps\baseMarker\GUI\dialog.hpp"
-	
+
+6. Finally if you use infistar make sure you whitelist the IDD's for this App found in Idds_ForInfistar_Whitelist.txt
+   otherwise regular non admin players will get the displays auto closed on them.
+   IDD white list can be found in @infiSTAR_Exile on your server then In addons folder unpbo the a3_infiSTAR_Exile.pbo
+   and open up EXILE_AHAT_CONFIG.hpp. Find the following and put in the idd accordinly.
+   
+	///////////////////////////////
+		allowedIDDs[] =
+		{
+	///////////////////////////////
+   
    NOTE: you can change file paths to your own but you will need to make necessary changes in other files
 		 within this package.
 
