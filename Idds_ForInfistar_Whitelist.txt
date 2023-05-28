@@ -1,0 +1,2 @@
+96500, //Rules XM8 APP
+97500, //Base Marker APP
