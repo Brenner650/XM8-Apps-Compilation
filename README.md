@@ -19,3 +19,4 @@ youtube previews of apps:
   Air Strike App  - https://www.youtube.com/watch?v=gZWOcJoZFo0
   Recruit AI App  - https://www.youtube.com/watch?v=EfET7Iro3cg
   AI Scanner App  - https://www.youtube.com/watch?v=4H0oY2rsxGk
+  APOC_Airdrop_Assistance with Crito's dynamic player made drops - https://www.youtube.com/watch?v=KUyTsBVd_7Y
