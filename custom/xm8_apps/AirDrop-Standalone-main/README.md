@@ -13,3 +13,5 @@ https://www.paypal.com/donate/?business=GEWBMDU2D7VKJ&no_recurring=0&currency_co
 
 Feel Free to join my discord if you have any questions.
 https://discord.gg/5qDR9CHq3h
+
+DO NOT USE WITH APOC_Airdrop_Assistance by osuapoc unexpedted things may happen!
