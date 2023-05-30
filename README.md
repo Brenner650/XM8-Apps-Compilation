@@ -11,6 +11,7 @@ configurable changes in it as far as charging player by tabs or respect or even 
 the file structure has changed for the air strike so pay attention to it in this package.
 
 Thank you Desa2k for allowing me to put in his Exad XM8 reworks of AI Scanner, AI Recruit, and Air Drop.
+Credits to APOC for his awsome work on APOC_Airdrop_Assistance.
 
 youtube previews of apps:
   Base Marker App - https://www.youtube.com/watch?v=pnnrV5xzAf8
