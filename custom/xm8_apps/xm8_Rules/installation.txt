@@ -18,7 +18,7 @@
 		{
 			textureNoShortcut = "custom\xm8_apps\xm8_Rules\icon\rules.paa";
 			text = "Server Rules";
-			onButtonClick = "execVM' custom\xm8_apps\xm8_Rules\code\rules_Load.sqf'";
+			onButtonClick = "execVM 'custom\xm8_apps\xm8_Rules\code\rules_Load.sqf'";
 			resource = "";
 		};
 	////////////////////////////////////////////////////////////////////////////
@@ -34,10 +34,14 @@
    IDD white list can be found in @infiSTAR_Exile on your server then In addons folder unpbo the a3_infiSTAR_Exile.pbo
    and open up EXILE_AHAT_CONFIG.hpp. Find the following and put in the idd accordinly.
    
-	///////////////////////////////
-		allowedIDDs[] =
-		{
-	///////////////////////////////
+		////////////////IDD TO ADD //////////////////////
+			96500
+		//////////////////////////////////////////////// 
+		
+		//////////Example of what to look for in infistar////////////////// 
+			allowedIDDs[] =
+			{
+		/////////////////////////////////////////////////////////////////// 
 	
    NOTE: you can change file paths to your own but you will need to make necessary changes in other files
 		 within this package.
