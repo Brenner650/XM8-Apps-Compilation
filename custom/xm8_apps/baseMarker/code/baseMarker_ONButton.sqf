@@ -1,14 +1,3 @@
- /*
- * XM8 App Base Marker
- * Created by - Crito @Vanaheim Gaming Servers
- * Discord - https://discord.gg/WEFzqPa
- * Date Created - 5/21/2023
- * Version - 1
- * Version Date - 5/21/2023
- */
-
-disableSerialization;
-
 private _flagArray = [];
 
 private _playerUID = getPlayerUID player;
@@ -27,8 +16,15 @@ private _playerUID = getPlayerUID player;
 	};
 }forEach (allMissionObjects "Exile_Construction_Flag_Static");
 
+if(count _flagArray <= 0)exitWith
+{
+	["ErrorTitleandText",["Base Marker","No bases found."]] call ExileClient_gui_toaster_addTemplateToast;
+	playSound "FD_CP_Not_Clear_F";
+};
+
 private _nearestFlag = [_flagArray, player] call BIS_fnc_nearestPosition;
 private _nearestFlagName = _nearestFlag getVariable ["ExileTerritoryName", ""];
 [_nearestFlagName]execVM "custom\xm8_apps\baseMarker\code\baseMarker_Zoom.sqf";
 
-["TaskSucceeded",["","Base markers toggled on."]] call BIS_fnc_showNotification;
+	["SuccessTitleandText",["Base Marker","Base markers on"]] call ExileClient_gui_toaster_addTemplateToast;
+	playSound "FD_CP_Not_Clear_F";
