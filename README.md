@@ -1,4 +1,9 @@
 # XM8-Apps-compilation
+IMPORTANT:
+  Almost all app folders inside the custom folder have thier own file named installation.txt if you do not have file extensions showing than
+  you will probably only see it as installation. This is the install instructions for that specific xm8 app. You can install only the apps you
+  want to use you are not requred to install them all.
+  
 Compilation of XM8 apps that were made to be standalone versions from Exad XM8
 Some of these apps are my personal apps that I made and some will be from other
 Devs that allow me to put them in this package. I have provided installation instructions
