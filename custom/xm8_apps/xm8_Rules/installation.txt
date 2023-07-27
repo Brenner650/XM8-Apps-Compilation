@@ -25,11 +25,17 @@
 
 3. edit the message.sqf found in this package to your liking. 
 4. edit the rulesApp_Init.sqf from this package to set your button text and web links.
-5. go to initPlayerLocal.sqf of mission.map.pbo and paste in the following
+
+5. go to description.ext of mission.map.pbo and paste in the following
+		
+		#include "custom\xm8_apps\xm8_Rules\GUI\defines.hpp"
+		#include "custom\xm8_apps\xm8_Rules\GUI\dialog.hpp"
+
+6. go to initPlayerLocal.sqf of mission.map.pbo and paste in the following
 		
 		[]execVm "custom\XM8_APPS\xm8_Rules\rulesApp_Init.sqf";
 
-6. Finally if you use infistar make sure you whitelist the IDD's for this App found in Idds_ForInfistar_Whitelist.txt
+7. Finally if you use infistar make sure you whitelist the IDD's for this App found in Idds_ForInfistar_Whitelist.txt
    otherwise regular non admin players will get the displays auto closed on them.
    IDD white list can be found in @infiSTAR_Exile on your server then In addons folder unpbo the a3_infiSTAR_Exile.pbo
    and open up EXILE_AHAT_CONFIG.hpp. Find the following and put in the idd accordinly.
